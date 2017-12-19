@@ -6,3 +6,7 @@ html {
 .banner {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
+
+.icon {
+  color: #ff9500;
+}
