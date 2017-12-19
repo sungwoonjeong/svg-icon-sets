@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #fff;
 }
 
@@ -9,4 +9,27 @@ html {
 
 .icon {
   color: #ff9500;
+}
+
+.btn {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.unit:nth-child(3) {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.btn:hover {
+  color: #ff9500;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+
+  h2 {
+    text-align: left;
+  }
+
 }
